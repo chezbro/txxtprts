@@ -46,6 +46,7 @@ gem 'binding_of_caller'
 gem 'simple_form'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
+gem 'haml-rails'
 
 group :development, :test do
   gem 'dotenv-rails'
