@@ -47,6 +47,7 @@ gem 'simple_form'
 gem 'tzinfo-data'
 gem 'validates_formatting_of'
 gem 'haml-rails'
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   gem 'dotenv-rails'
