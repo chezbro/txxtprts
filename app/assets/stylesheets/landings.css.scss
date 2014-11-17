@@ -4,7 +4,11 @@ $red: #ff4d54;
 $white: #fff;
 
 body {
-  background-color: #f6ede5;
+  background: url("http://f.cl.ly/items/1M3c2a0H3W3e220U3G2W/love.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a, p {
@@ -123,10 +127,13 @@ a, p {
 }
 
 .cont-contactBtn {
-  height: 359px;
+  height: 350px;
   margin: 0 auto;
-  width: 574px;
-  position: relative;
+  width: 1090px;
+  position: absolute;
+  bottom: 275px;
+  // border: 1px solid rgba(255,255,255,.55);
+
 
   @include perspective(800px);
 
@@ -148,7 +155,7 @@ a, p {
     }
 
     .front {
-      background-color: $red;
+       background-color: rgba(222,222,222,.75);
     }
 
     .back {

@@ -48,6 +48,7 @@ gem 'tzinfo-data'
 gem 'validates_formatting_of'
 gem 'haml-rails'
 gem 'rails_12factor', group: :production
+gem 'paperclip'
 
 group :development, :test do
   gem 'dotenv-rails'
