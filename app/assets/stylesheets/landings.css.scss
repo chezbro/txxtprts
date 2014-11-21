@@ -3,12 +3,22 @@
 $red: #ff4d54;
 $white: #fff;
 
+img.slogan{
+  position: relative;
+  display: inherit;
+  margin: 0 auto;
+  top: 50px;
+}
+p.tagline{
+  text-align: center;
+  top: 30px;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: gray;
+  font-size: 19px;
+}
 body {
-  background: url("http://f.cl.ly/items/1M3c2a0H3W3e220U3G2W/love.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #4682b4;
 }
 
 a, p {
@@ -132,6 +142,9 @@ a, p {
   width: 1090px;
   position: absolute;
   bottom: 275px;
+  max-width: 75%;
+  top: 100px;
+  position: relative;
   // border: 1px solid rgba(255,255,255,.55);
 
 
@@ -155,7 +168,11 @@ a, p {
     }
 
     .front {
-       background-color: rgba(222,222,222,.75);
+       background: url("love.jpg");
+       background-position-x: -220px;
+       background-position-y: -265px;
+       border: 2px solid #4682b4;
+       border-radius: 25px;
     }
 
     .back {
@@ -165,7 +182,7 @@ a, p {
   }
 
   .btn {
-    margin-top: 155px;
+    margin-top: 125px;
   }
 
   .cont-flip.flipped {
@@ -176,6 +193,9 @@ a, p {
     padding: 0 10%;
     margin-top: 50px;
     width: 80%;
+    margin: 0 auto;
+    top: 30px;
+    position: relative;
 
     input, textarea {
       border: 1px solid #808080;
@@ -199,7 +219,7 @@ a, p {
       height: 106px;
       padding-left: 3%;
       margin-bottom: 22px;
-      width: 96.2%;
+      width: 92.5%;
     }
 
     input[type="submit"] {
@@ -210,6 +230,7 @@ a, p {
       width: 100%;
       max-width:93px;
       text-align: center;
+      display: inherit;
     }
 
   }
@@ -231,7 +252,7 @@ a, p {
   border: 3px $white solid;
   color: $white;
   display: block;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: normal;
   margin: 0 auto;
   max-width: 280px;
@@ -240,4 +261,7 @@ a, p {
   text-transform: uppercase;
   text-decoration: none;
   width: 100%;
+}
+.btn:hover{
+  color:#4682b4 !important;
 }
